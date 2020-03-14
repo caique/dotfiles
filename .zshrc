@@ -10,6 +10,7 @@ export EDITOR="nvim"
 
 # Aliases
 alias vim=nvim
+alias reload="source ~/.zshrc" 
 alias dev="~/Developer"
 alias zshconfig="vim ~/.dotfiles/.zshrc"
 alias antigenconfig="vim ~/.dotfiles/.antigenrc" 
