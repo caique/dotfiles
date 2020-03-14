@@ -5,6 +5,7 @@ brew "antigen"
 brew "neovim"
 brew "gpg"
 brew "awscli"
+brew "autojump"
 
 # Programming Languages
 brew "node"
