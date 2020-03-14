@@ -1,14 +1,24 @@
-# Utilities
+# Command Line Utilities
+brew "bash"
 brew "zsh"
 brew "antigen"
-brew "autojump"
 brew "neovim"
 brew "gpg"
-
-# Tools
 brew "awscli"
-brew "gradle"
 
 # Programming Languages
 brew "node"
 brew "python"
+
+# Applications
+tap "homebrew/cask"
+cask_args appdir: "/Applications"
+
+cask "iterm2"
+cask "1password"
+cask "google-chrome"
+cask "visual-studio-code"
+cask "intellij-idea"
+cask "docker"
+cask "slack"
+cask "spotify"
