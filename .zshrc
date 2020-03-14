@@ -9,6 +9,7 @@ export ZSH_AUTOSUGGEST_HISTORY_IGNORE="cd *"
 export EDITOR="nvim"
 
 # Aliases
+alias vim=nvim
 alias dev="~/Developer"
 alias zshconfig="vim ~/.dotfiles/.zshrc"
 alias antigenconfig="vim ~/.dotfiles/.antigenrc" 
