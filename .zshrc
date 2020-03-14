@@ -6,7 +6,7 @@ antigen init ${HOME}/.dotfiles/.antigenrc
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#dfdf09,bg=underline"
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export ZSH_AUTOSUGGEST_HISTORY_IGNORE="cd *"
-export EDITOR="vim"
+export EDITOR="nvim"
 
 # Aliases
 alias dev="~/Developer"
