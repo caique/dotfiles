@@ -7,7 +7,12 @@ for FILE in "${FILESTOCLEANUP[@]}"; do
 	rm ${HOME}/$FILE
 done
 
-echo "# Generated from .dotfiles repository\nsouroe ~/.dotfiles/.zshrc" > ${HOME}/.zshrc
+echo "# Generated from .dotfiles repository\nsource ~/.dotfiles/.zshrc" > ${HOME}/.zshrc
+
+# Generate configurations for Neovim
+mkdir ${HOME}/.config
+mkdir ${HOME}/.config/nvim
+echo "\" Generated from .dotfiles repository\nsource ~/.dotfiles/.vimrc" > ${HOME}/.config/nvim/init.vim
 
 # Install SDKMan
 curl -s http://get.sdkman.io | bash
