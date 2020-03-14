@@ -1,12 +1,6 @@
 # Load Antigen
-if [[ -f ${ADOTDIR:-$HOME/.antigen}/.cache/.zcache-payload ]]; then
-    source ${ADOTDIR:-$HOME/.antigen}/.cache/.zcache-payload
-    autoload -Uz compinit
-    compinit -d ${HOME}/.zcompdump
-else
-    source /usr/local/share/antigen/antigen.zsh
-    antigen init ${HOME}/.dotfiles/.antigenrc
-fi
+source /usr/local/share/antigen/antigen.zsh
+antigen init ${HOME}/.dotfiles/.antigenrc
 
 # ZSH Configurations
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#dfdf09,bg=underline"
@@ -18,3 +12,4 @@ export EDITOR="vim"
 alias dev="~/Developer"
 alias zshconfig="vim ~/.dotfiles/.zshrc"
 alias antigenconfig="vim ~/.dotfiles/.antigenrc" 
+alias cleansuggestions="rm $HISTFILE"
