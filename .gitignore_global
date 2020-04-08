@@ -41,6 +41,8 @@ tags
 
 ### Intellij ###
 .idea/
+.idea/**
+.idea/misc.xml
 cmake-build-*/
 out/
 *.ipr
