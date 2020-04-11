@@ -6,6 +6,7 @@ brew "neovim"
 brew "gpg"
 brew "awscli"
 brew "autojump"
+brew "git-crypt"
 
 # Programming Languages
 brew "node"
