@@ -14,8 +14,8 @@ mkdir -p ${HOME}/.config/nvim
 echo "\" Generated from .dotfiles repository\nsource ~/.dotfiles/.vimrc" > ${HOME}/.config/nvim/init.vim
 
 # Set Git globals
-git config --global --user.name "Caique Peixoto"
-git config --global --user.email "caiquepeixoto1@gmail.com"
+git config --global user.name "Caique Peixoto"
+git config --global user.email "caiquepeixoto1@gmail.com"
 git config --global core.excludesfile ${HOME}/.dotfiles/.gitignore_global
 
 # Install SDKMan
