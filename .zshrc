@@ -4,7 +4,7 @@ antigen init ${HOME}/.dotfiles/.antigenrc
 
 # ZSH Configurations
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#dfdf09,bg=underline"
-export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+export ZSH_AUTOSUGGEST_STRATEGY=(history)
 export ZSH_AUTOSUGGEST_HISTORY_IGNORE="cd *"
 export ZSH_AUTOSUGGEST_COMPLETION_IGNORE="j *"
 export EDITOR="nvim"
