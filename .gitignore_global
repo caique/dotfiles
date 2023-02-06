@@ -16,6 +16,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+*.icloud
 
 ### Vim ###
 [._]*.s[a-v][a-z]
@@ -37,7 +38,10 @@ tags
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/*.code-snippets
 .history
+*.vsix
+.ionide
 
 ### Intellij ###
 .idea/
@@ -55,7 +59,7 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-### Java ###
+### JVM (Java and Kotlin) ###
 *.class
 *.log
 *.ctxt
@@ -68,3 +72,4 @@ fabric.properties
 *.tar.gz
 *.rar
 hs_err_pid*
+replay_pid*
